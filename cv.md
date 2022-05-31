@@ -4,8 +4,8 @@
 --------------------
 ### Contact information:
 --------------------------------------
-- __Location:__ Minsk, Belarus
-- __Phone:__ +375292934717
+- __Location:__ Wroclaw, Poland
+- __Phone:__ +48782346579
 - __E-mail:__ margarita.gediun@gmail.com
 - __Telegram:__ @margogediun
 
