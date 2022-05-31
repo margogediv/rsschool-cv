@@ -30,3 +30,15 @@ return number % 2 === 0;
 })
 console.log(result)
 ```
+
+### Education:
+------------------------------------------------
+- Belarus State Economic University;
+- Teachmeskills (Front End Developer);
+- Myfreedom (UI/UX desing);
+
+### Languages:
+------------------------------------------------
+- Russian - Native;
+- Polish - Pre-Intermediate;
+- English - Beginner;
