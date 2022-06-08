@@ -2,11 +2,166 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+        rel="stylesheet"
+        href="./css/style.css"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>CV Gediun Margarita</title>
 </head>
 <body>
-    
+<div class="main-content">
+    <header class=" menu">
+        <div class="wrapper">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#languages">Languages</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#about">About</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#courses">Courses</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#code">Code</a>
+                </li>
+            </ul>
+            <div class="menu-burger">
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main class="data">
+        <div class="wrapper">
+            <div class="wrapper-grid">
+                <div class="wrapper-grid__first">
+                    <header class="name">
+                        <img
+                            src="./img/avatar.jpg"
+                            alt="user-avatar"
+                        >
+                        <div class="name__box">
+                            <h1 class="name__title">Gediun Margarita</h1>
+                            <p class="name__subtitle">Frontend Developer</p>
+                        </div>
+                    </header>
+                    <section id="contact" class="data__section contact">
+                        <h2 class="data__title contact__title">Contact</h2>
+                        <ul class="contact__list">
+                            <li class="contact__item contact__item_phone">+48782346579</li>
+                            <li class="contact__item contact__item_mail">margarita.gediun@gmail.com</li>
+                            <li class="contact__item contact__item_telegram">@margogrdiun</li>
+                            <li class="contact__item contact__item_in">
+                                <a
+                                    href="https://www.linkedin.com/in/margarita-gediun-1a7316131/"
+                                    target="_blank"
+                                >Linkedln</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="skills" class="data__section skills">
+                        <h2 class="data__title skills__title">Skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML5, CSS3</li>
+                            <li class="skills__item">JavaScript</li>
+                            <li class="skills__item">Git, GitHub, Bitbucket</li>
+                            <li class="skills__item">VS Code, WebStorm</li>
+                            <li class="skills__item">Docker</li>
+                        </ul>
+                    </section>
+                    <section id="languages" class="data__section languages">
+                        <h2 class="data__title languages__title">Languages</h2>
+                        <ul class="languages__list">
+                            <li class="languages__item">Russian / native</li>
+                            <li class="languages__item">Polish / B1</li>
+                            <li class="languages__item">English / beginner</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="wrapper-grid__second">
+                    <section id="about" class="data__section about">
+                        <h2 class="data__title about__title">About Myself</h2>
+                        <div class="about__text">
+                            <p>
+                                My name is Margarita. I graduated from the Belarus State Economic University in 2017. I’d
+                                describe
+                                myself as a goal-oriented and hardworking person with good organizational skills and strategic
+                                thinking. Furthermore, I’m a good speaker and even a better listener — that’s why I’ve always
+                                been
+                                able to get along with different types of people.
+                            </p>
+                            <p>I enjoy solving problems, troubleshooting issues, and coming up with solutions in a timely
+                                manner.
+                            </p>
+                        </div>
+                    </section>
+                    <section id="education" class="data__section education">
+                        <h2 class="data__title education__title">Education</h2>
+                        <div class="education__text">
+                            <p>Belarus State Economic University</p>
+                            <p>Faculty of Finance and Banking</p>
+                            <p>Economist</p>
+                        </div>
+                    </section>
+                    <section id="courses" class="data__section courses">
+                        <h2 class="data__title courses__title">Courses</h2>
+                        <ul class="courses__list">
+                            <li class="courses__item">teachmeskills / frontend</li>
+                            <li class="courses__item">freedom / UI/UX Desing</li>
+                        </ul>
+                    </section>
+                    <section id="code" class="data__section code">
+                        <h2 class="data__title code__title">Code Example</h2>
+                        <div class="code__text">
+                            <code>
+                                let array = [4, 5, 6, 1, 2, 3]<br>
+
+                                let result = array.filter(function (number){<br>
+                                return number % 2 === 0;<br>
+                                })<br>
+                                console.log(result)<br>
+                            </code>
+                        </div>
+
+                    </section>
+                    <div class="data__section icon">
+                        <div class="icon__box">
+                            <a href="https://rs.school/js-stage0/"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="footer">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="https://github.com/margogediv" target="_blank">GitHub</a>
+                    </li>
+                    <li class="footer__item footer__icon">
+                        <a href="https://rs.school/js-stage0/"></a>
+                    </li>
+                    <li class="footer__item">© 2022</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/index.js"></script>
 </body>
 </html>
