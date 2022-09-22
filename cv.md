@@ -1,0 +1,44 @@
+# MARHARYTA HEDZIUN
+
+#### Frontend Developer
+--------------------
+### Contact information:
+--------------------------------------
+- __Location:__ Wroclaw, Poland
+- __Phone:__ +48782346579
+- __E-mail:__ margarita.gediun@gmail.com
+- __Telegram:__ @margogediun
+
+### About Me:
+------------------------------------------------
+I am working as junior Frontend Developer, actively learning js.
+In my free time I read and study a lot Polish.
+
+### Skills and Proficiency:
+----------------------------------------
+- HTML, CSS;
+- JavaScript;
+- Git;
+
+### Code Example:
+-----------------------------------------
+```
+let array = [4, 5, 6, 1, 2, 3]
+
+let result = array.filter(function (number){
+return number % 2 === 0;
+})
+console.log(result)
+```
+
+### Education:
+------------------------------------------------
+- Belarus State Economic University;
+- Teachmeskills (Front End Developer);
+- Myfreedom (UI/UX desing);
+
+### Languages:
+------------------------------------------------
+- Russian - Native;
+- Polish - Pre-Intermediate;
+- English - Beginner;
